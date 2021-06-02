@@ -735,7 +735,6 @@ document.getElementById('paris').addEventListener('click', event => {
             <h2> Temperature : ${weather.main.temp} °F</h2>
             <h3>Humdity : ${weather.main.humidity} %</h3>
             <h4>Wind Speed :  ${weather.wind.speed} MPH</h4>
-            
           `
 
       document.getElementById('name').value = ''
