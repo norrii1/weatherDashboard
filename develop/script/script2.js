@@ -1,9 +1,10 @@
 
+
 document.getElementById('search').addEventListener('click', event => {
   event.preventDefault()
 
 
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${document.getElementById('name').value}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${document.getElementById('name').value}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -96,7 +97,7 @@ document.getElementById('search').addEventListener('click', event => {
     event.preventDefault()
   let sanDiego = document.getElementById('sanDiego').innerHTML
   console.log(sanDiego)
-    const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${sanDiego}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+    const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${sanDiego}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
       .then(res => {
 
 
@@ -185,7 +186,7 @@ document.getElementById('newYork').addEventListener('click', event => {
   event.preventDefault()
   let newYork = document.getElementById('newYork').innerHTML
   console.log(newYork)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${newYork}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${newYork}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -275,7 +276,7 @@ document.getElementById('newYork').addEventListener('click', event => {
     event.preventDefault()
     let detroit = document.getElementById('detroit').innerHTML
     console.log(detroit)
-    const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${detroit}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+    const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${detroit}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
       .then(res => {
 
 
@@ -364,7 +365,7 @@ document.getElementById('mami').addEventListener('click', event => {
   event.preventDefault()
   let mami = document.getElementById('mami').innerHTML
   console.log(mami)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${mami}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${mami}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -452,7 +453,7 @@ document.getElementById('lasVegas').addEventListener('click', event => {
   event.preventDefault()
   let lasVegas = document.getElementById('lasVegas').innerHTML
   console.log(lasVegas)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${lasVegas}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${lasVegas}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -541,7 +542,7 @@ document.getElementById('detroit').addEventListener('click', event => {
   event.preventDefault()
   let detroit = document.getElementById('detroit').innerHTML
   console.log(detroit)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${detroit}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${detroit}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -629,7 +630,7 @@ document.getElementById('atlanta').addEventListener('click', event => {
   event.preventDefault()
   let atlanta = document.getElementById('atlanta').innerHTML
   console.log(atlanta)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${atlanta}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${atlanta}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -717,7 +718,7 @@ document.getElementById('paris').addEventListener('click', event => {
   event.preventDefault()
   let paris = document.getElementById('paris').innerHTML
   console.log(paris)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${paris}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${paris}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
@@ -805,7 +806,7 @@ document.getElementById('rome').addEventListener('click', event => {
   event.preventDefault()
   let rome = document.getElementById('rome').innerHTML
   console.log(rome)
-  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${rome}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${rome}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
 
 
