@@ -2,7 +2,7 @@ document.getElementById('search').addEventListener('click', event => {
   event.preventDefault()
 
   
-  const firstRequest = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${document.getElementById('name').value}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
+  const firstRequest = axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${document.getElementById('name').value}&units=imperial&appid=d403e9e2493dde40e019ba65a75eaae8`)
     .then(res => {
       
         
