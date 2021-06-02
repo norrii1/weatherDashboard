@@ -17,6 +17,26 @@
   margin-left: 5px;
 }
 
+  #weather{
+    color: black;
+  }
+  @media only screen and (min-width: 200px){
+.row .col.s12  {
+  height: auto;
+
+}}
+  @media only screen and (min-width: 601px){
+.row .col.m6 {
+    width: inherit;
+    height: auto;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+
+}}
+
+
+
 .location {
   grid-column: 2 / span 8;
   grid-row: 1 / span 2;
